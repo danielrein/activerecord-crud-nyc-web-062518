@@ -12,6 +12,7 @@ def can_be_instantiated_and_then_saved
   movie.director = "This is a director."
   movie.lead = "This is a lead."
   movie.in_theaters = true
+  movie.save
 end
 
 def can_be_created_with_a_hash_of_attributes
