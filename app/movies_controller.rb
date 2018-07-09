@@ -28,12 +28,7 @@ end
 
 def can_be_created_in_a_block(args = nil)
   Movie.create do |m|
-    m.title = "This is a title."
-    m.release_date = Time.now
-    m.director = "This is a director."
-    m.lead = "This is a lead."
-    m.in_theaters = true
-    m.save
+    m.new
   end
 end
 
