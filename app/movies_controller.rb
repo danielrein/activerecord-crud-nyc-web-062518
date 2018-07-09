@@ -8,7 +8,6 @@
 def can_be_instantiated_and_then_saved
   movie = Movie.new
   movie.title = "This is a title."
-  movie.title = "This is a title."
   movie.release_date = Time.now
   movie.director = "This is a director."
   movie.lead = "This is a lead."
